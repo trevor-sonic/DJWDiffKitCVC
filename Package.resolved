@@ -1,0 +1,97 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "DifferenceKit",
+        "repositoryURL": "https://github.com/ra1028/DifferenceKit.git",
+        "state": {
+          "branch": null,
+          "revision": "14c66681e12a38b81045f44c6c29724a0d4b0e72",
+          "version": "1.1.5"
+        }
+      },
+      {
+        "package": "DJWBaseVC",
+        "repositoryURL": "https://gitlab.com/trevorsonic/DJWBaseVC.git",
+        "state": {
+          "branch": null,
+          "revision": "fcef42163e30ba77a01135a05654ef106af94f76",
+          "version": "1.0.27"
+        }
+      },
+      {
+        "package": "DJWBindableNS",
+        "repositoryURL": "https://gitlab.com/trevorsonic/DJWBindableNS.git",
+        "state": {
+          "branch": null,
+          "revision": "382b0081d1e1b20696586167dfaa536c29631bda",
+          "version": "1.0.25"
+        }
+      },
+      {
+        "package": "DJWBindableVar",
+        "repositoryURL": "https://gitlab.com/trevorsonic/DJWBindableVar.git",
+        "state": {
+          "branch": null,
+          "revision": "5c09ecd4494b8d6165a22549dd00b9c317728320",
+          "version": "1.0.24"
+        }
+      },
+      {
+        "package": "DJWBuilderNS",
+        "repositoryURL": "https://gitlab.com/trevorsonic/DJWBuilderNS.git",
+        "state": {
+          "branch": null,
+          "revision": "272ee53f3c25bb05aa28e38957888372bec03e08",
+          "version": "1.0.26"
+        }
+      },
+      {
+        "package": "DJWCommon",
+        "repositoryURL": "https://gitlab.com/trevorsonic/DJWCommon.git",
+        "state": {
+          "branch": null,
+          "revision": "6604a74ac704fde2fd00e9ed2e3f8cfee0d81109",
+          "version": "1.0.26"
+        }
+      },
+      {
+        "package": "DJWUIBuilder",
+        "repositoryURL": "https://gitlab.com/trevorsonic/DJWUIBuilder.git",
+        "state": {
+          "branch": null,
+          "revision": "d3d6865b09492a40441d21a53286aae90d3cd05b",
+          "version": "1.0.24"
+        }
+      },
+      {
+        "package": "DJWUIExtensions",
+        "repositoryURL": "https://gitlab.com/trevorsonic/DJWUIExtensions.git",
+        "state": {
+          "branch": null,
+          "revision": "023b9c7766b7941b04b4a9136792578267d58236",
+          "version": "1.0.24"
+        }
+      },
+      {
+        "package": "DJWVTExtensions",
+        "repositoryURL": "https://gitlab.com/trevorsonic/DJWVTExtensions.git",
+        "state": {
+          "branch": null,
+          "revision": "fd8c25d9ae953496b1156acc6f047536ef6c51ef",
+          "version": "1.0.24"
+        }
+      },
+      {
+        "package": "SnapKit",
+        "repositoryURL": "https://github.com/SnapKit/SnapKit.git",
+        "state": {
+          "branch": null,
+          "revision": "d458564516e5676af9c70b4f4b2a9178294f1bc6",
+          "version": "5.0.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
