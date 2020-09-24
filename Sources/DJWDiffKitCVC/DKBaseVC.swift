@@ -43,7 +43,7 @@ open class DKBaseVC: BaseVC {
     }
     
     // MARK: - Layout
-    public func collectionViewLayout() -> UICollectionViewLayout {
+    open func collectionViewLayout() -> UICollectionViewLayout {
         let layout = UICollectionViewFlowLayout()
         let cellH: CGFloat = 60
         let cellW: CGFloat = UIScreen.main.bounds.width * 0.24
@@ -73,6 +73,7 @@ open class DKBaseVC: BaseVC {
 }
 
 extension DKBaseVC: UICollectionViewDataSource, UICollectionViewDelegate {
+    
     public func numberOfSections(in collectionView: UICollectionView) -> Int {
         return _data.count
     }
@@ -140,6 +141,10 @@ extension DKBaseVC: UICollectionViewDataSource, UICollectionViewDelegate {
             
             assert(false, "Unexpected element kind")
         }
+    }
+    
+    open func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        print("⚠️ didSelectItemAt \(indexPath) \(#function) in \(description)")
     }
 }
 extension DKBaseVC:DKCellOrSectionDelegate{
