@@ -63,13 +63,6 @@ open class DKBaseVC: BaseVC {
         super.viewDidLayoutSubviews()
         
     }
-//    func collectionView(_ collectionView: UICollectionView,
-//                        layout collectionViewLayout: UICollectionViewLayout,
-//                        sizeForItemAt indexPath: IndexPath) -> CGSize {
-////        let label = UILabel(frame: CGRect.zero)
-////        label.sizeToFit()
-//        return CGSize(width: label.frame.width, height: 32)
-//    }
 }
 
 extension DKBaseVC: UICollectionViewDataSource, UICollectionViewDelegate {
