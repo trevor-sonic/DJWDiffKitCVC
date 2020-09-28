@@ -128,10 +128,11 @@ extension DKBaseVC: UICollectionViewDataSource, UICollectionViewDelegate {
                 return footerView as! UICollectionReusableView
                 
             }else{
+                return UICollectionReusableView()
                 fatalError("Unknown cell!")
             }
         default:
-            
+            return UICollectionReusableView()
             assert(false, "Unexpected element kind")
         }
     }
