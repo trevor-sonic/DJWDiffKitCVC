@@ -64,9 +64,17 @@ open class DKBaseVC: BaseVC {
         
     }
 }
+extension DKBaseVC: UICollectionViewDelegateFlowLayout{
+    open func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        
+        
+        
+        return CGSize(width: 300, height: 50)
+    }
+}
 
 extension DKBaseVC: UICollectionViewDataSource, UICollectionViewDelegate {
-    
+
     public func numberOfSections(in collectionView: UICollectionView) -> Int {
         return _data.count
     }
@@ -95,8 +103,6 @@ extension DKBaseVC: UICollectionViewDataSource, UICollectionViewDelegate {
         
         fatalError("Unknown cell!")
         
-//        (cell as? EmojiCell)?.label.text = (anyItem.base as? DKItem)?.name ?? (anyItem.base as? VideoItem)?.name
-//        return cell
     }
 
     // MARK: - Render
