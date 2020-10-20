@@ -15,8 +15,8 @@
         "repositoryURL": "https://gitlab.com/trevorsonic/DJWBaseVC.git",
         "state": {
           "branch": null,
-          "revision": "fcef42163e30ba77a01135a05654ef106af94f76",
-          "version": "1.0.27"
+          "revision": "84142aab98a9aa9f8a26fe8d4ee0f990204e8ed1",
+          "version": "1.0.28"
         }
       },
       {
@@ -60,8 +60,8 @@
         "repositoryURL": "https://gitlab.com/trevorsonic/DJWUIBuilder.git",
         "state": {
           "branch": null,
-          "revision": "d3d6865b09492a40441d21a53286aae90d3cd05b",
-          "version": "1.0.24"
+          "revision": "3f823e78dc356cb032519aad9c9db9f3ae979eb5",
+          "version": "1.0.30"
         }
       },
       {
