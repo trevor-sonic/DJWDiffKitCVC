@@ -18,14 +18,14 @@ let package = Package(
     ],
     dependencies: [
         /// private
-        .package(url: "https://gitlab.com/trevorsonic/DJWCommon.git", from: "1.0.18"),
-        .package(url: "https://gitlab.com/trevorsonic/DJWUIExtensions.git", from: "1.0.18"),
-        .package(url: "https://gitlab.com/trevorsonic/DJWVTExtensions.git", from: "1.0.18"),
+        .package(url: "https://github.com/trevor-sonic/DJWCommon.git", from: "1.0.18"),
+        .package(url: "https://github.com/trevor-sonic/DJWUIExtensions.git", from: "1.0.18"),
+        .package(url: "https://github.com/trevor-sonic/DJWVTExtensions.git", from: "1.0.18"),
         
-        .package(url: "https://gitlab.com/trevorsonic/DJWUIBuilder.git", from: "1.0.18"),
-        .package(url: "https://gitlab.com/trevorsonic/DJWBaseVC.git", from: "1.0.18"),
-        .package(url: "https://gitlab.com/trevorsonic/DJWBindableVar.git", from: "1.0.18"),
-        .package(url: "https://gitlab.com/trevorsonic/DJWBuilderNS.git", from: "1.0.18"),
+        .package(url: "https://github.com/trevor-sonic/DJWUIBuilder.git", from: "1.0.18"),
+        .package(url: "https://github.com/trevor-sonic/DJWBaseVC.git", from: "1.0.18"),
+        .package(url: "https://github.com/trevor-sonic/DJWBindableVar.git", from: "1.0.18"),
+        .package(url: "https://github.com/trevor-sonic/DJWBuilderNS.git", from: "1.0.18"),
 
         
         
