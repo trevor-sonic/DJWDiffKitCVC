@@ -14,10 +14,10 @@ public protocol DKCellOrSectionP {
     
     /// Base component which holds cell/section data.
     /// This must be casted to expected data type
-    public var base:Any?{get set}
+    var base:Any?{get set}
     
     /// This is for button action or such which is happening in the cell
-    public var dkCellOrSectionDelegate:DKCellOrSectionDelegate?{get set}
+    var dkCellOrSectionDelegate:DKCellOrSectionDelegate?{get set}
 }
 
 
