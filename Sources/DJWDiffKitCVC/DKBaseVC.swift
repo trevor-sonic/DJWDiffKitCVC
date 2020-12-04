@@ -9,7 +9,7 @@ import UIKit
 import DJWBaseVC
 import DifferenceKit
 
-open class DKBaseVC: BaseVC {
+open class DKBaseVC: BaseVC, DKCellOrSectionDelegate{
     public typealias Section = ArraySection<DKContainer, DKContainer>
     
     // MARK: - UI
@@ -29,15 +29,21 @@ open class DKBaseVC: BaseVC {
         get { return _data }
         set {
             let changeset = StagedChangeset(source: _data, target: newValue)
-            collectionView.reload(using: changeset) { data in
+            collectionView.reload(using: changeset, interrupt: {$0.changeCount > 100} ) { data in
                 self._data = data
             }
         }
     }
+    public var silentData:[Section]{
+        set{ _data = newValue }
+        get{ return _data }
+    }
     
+    /// Register cell
     public func register(_ cellType: UICollectionViewCell.Type, reuseID:String) {
         collectionView.register(cellType, forCellWithReuseIdentifier: reuseID)
     }
+    /// Register header
     public func register(_ header: UICollectionReusableView.Type, reuseID:String) {
         collectionView.register(header, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: reuseID)
     }
@@ -63,6 +69,10 @@ open class DKBaseVC: BaseVC {
         super.viewDidLayoutSubviews()
         
     }
+    // MARK: - DKCellOrSectionDelegate
+    open func action(cellOrSection: DKCellOrSectionP, senderUI: UIView, senderType: Any?, event: UIControl.Event) {
+        print("⚠️ Implement \(#function) in \(description)")
+    }
 }
 extension DKBaseVC: UICollectionViewDelegateFlowLayout{
     open func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
@@ -72,7 +82,6 @@ extension DKBaseVC: UICollectionViewDelegateFlowLayout{
         return CGSize(width: 300, height: 50)
     }
 }
-
 extension DKBaseVC: UICollectionViewDataSource, UICollectionViewDelegate {
 
     public func numberOfSections(in collectionView: UICollectionView) -> Int {
@@ -146,9 +155,8 @@ extension DKBaseVC: UICollectionViewDataSource, UICollectionViewDelegate {
     open func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         print("⚠️ didSelectItemAt \(indexPath) \(#function) in \(description)")
     }
+
 }
-extension DKBaseVC:DKCellOrSectionDelegate{
-    public func action(cellOrSection: DKCellOrSectionP, senderUI: UIView, senderType: Any?, event: UIControl.Event) {
-        print("⚠️ Implement \(#function) in \(description)")
-    }
-}
+//public extension DKBaseVC:DKCellOrSectionDelegate{
+//
+//}
