@@ -92,21 +92,15 @@ extension DKBaseVC: UICollectionViewDataSource, UICollectionViewDelegate {
         return _data[section].elements.count
     }
 
-    public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    // MARK: - Render
+    /// cell render
+    open func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        let anyItem = _data[indexPath.section].elements[indexPath.item]//.base
-    
-        //let cell = collectionView.dequeueReusableCell(for: indexPath, cellType: anyItem.reuseID)
+        let anyItem = data[indexPath.section].elements[indexPath.item]
         
         if var cell = collectionView.dequeueReusableCell(withReuseIdentifier: anyItem.reuseID, for: indexPath) as? DKCellOrSectionP{
             cell.base = anyItem.base
             cell.dkCellOrSectionDelegate = self
-            //(cell as! UITableViewCell).showsReorderControl = false
-            
-            //(cell as! UITableViewCell).accessoryType = .disclosureIndicator
-            
-            //(cell as! UITableViewCell).isEditing = false
-                //self.tableView(tableView, canMoveRowAtIndexPath: indexPath)
             return cell as! UICollectionViewCell
         }
         
@@ -115,7 +109,7 @@ extension DKBaseVC: UICollectionViewDataSource, UICollectionViewDelegate {
     }
 
     // MARK: - Render
-    /// cell render
+    /// header render
     public func collectionView(_ collectionView: UICollectionView,
                                viewForSupplementaryElementOfKind kind: String,
                                at indexPath: IndexPath) -> UICollectionReusableView {

@@ -12,74 +12,74 @@
       },
       {
         "package": "DJWBaseVC",
-        "repositoryURL": "https://gitlab.com/trevorsonic/DJWBaseVC.git",
+        "repositoryURL": "https://github.com/trevor-sonic/DJWBaseVC.git",
         "state": {
           "branch": null,
-          "revision": "84142aab98a9aa9f8a26fe8d4ee0f990204e8ed1",
-          "version": "1.0.28"
-        }
-      },
-      {
-        "package": "DJWBindableNS",
-        "repositoryURL": "https://gitlab.com/trevorsonic/DJWBindableNS.git",
-        "state": {
-          "branch": null,
-          "revision": "382b0081d1e1b20696586167dfaa536c29631bda",
-          "version": "1.0.25"
-        }
-      },
-      {
-        "package": "DJWBindableVar",
-        "repositoryURL": "https://gitlab.com/trevorsonic/DJWBindableVar.git",
-        "state": {
-          "branch": null,
-          "revision": "5c09ecd4494b8d6165a22549dd00b9c317728320",
-          "version": "1.0.24"
-        }
-      },
-      {
-        "package": "DJWBuilderNS",
-        "repositoryURL": "https://gitlab.com/trevorsonic/DJWBuilderNS.git",
-        "state": {
-          "branch": null,
-          "revision": "272ee53f3c25bb05aa28e38957888372bec03e08",
-          "version": "1.0.26"
-        }
-      },
-      {
-        "package": "DJWCommon",
-        "repositoryURL": "https://gitlab.com/trevorsonic/DJWCommon.git",
-        "state": {
-          "branch": null,
-          "revision": "6604a74ac704fde2fd00e9ed2e3f8cfee0d81109",
-          "version": "1.0.26"
-        }
-      },
-      {
-        "package": "DJWUIBuilder",
-        "repositoryURL": "https://gitlab.com/trevorsonic/DJWUIBuilder.git",
-        "state": {
-          "branch": null,
-          "revision": "3f823e78dc356cb032519aad9c9db9f3ae979eb5",
+          "revision": "21dcc64b03d6925e0f495c488511de37d640e075",
           "version": "1.0.30"
         }
       },
       {
-        "package": "DJWUIExtensions",
-        "repositoryURL": "https://gitlab.com/trevorsonic/DJWUIExtensions.git",
+        "package": "DJWBindableNS",
+        "repositoryURL": "https://github.com/trevor-sonic/DJWBindableNS.git",
         "state": {
           "branch": null,
-          "revision": "023b9c7766b7941b04b4a9136792578267d58236",
-          "version": "1.0.24"
+          "revision": "de2b4187ac4556b0cc246955db50e8237477ee7e",
+          "version": "1.0.26"
+        }
+      },
+      {
+        "package": "DJWBindableVar",
+        "repositoryURL": "https://github.com/trevor-sonic/DJWBindableVar.git",
+        "state": {
+          "branch": null,
+          "revision": "35061ca5dd11c7f405c868d9ab69005cd9eb6d9e",
+          "version": "1.0.38"
+        }
+      },
+      {
+        "package": "DJWBuilderNS",
+        "repositoryURL": "https://github.com/trevor-sonic/DJWBuilderNS.git",
+        "state": {
+          "branch": null,
+          "revision": "1ad78ebeeb37706be2f89f4d923d80fae9375116",
+          "version": "1.0.27"
+        }
+      },
+      {
+        "package": "DJWCommon",
+        "repositoryURL": "https://github.com/trevor-sonic/DJWCommon.git",
+        "state": {
+          "branch": null,
+          "revision": "0d5ce97c557644cc72e02d8c4cbbd5d0fc95a75a",
+          "version": "1.0.31"
+        }
+      },
+      {
+        "package": "DJWUIBuilder",
+        "repositoryURL": "https://github.com/trevor-sonic/DJWUIBuilder.git",
+        "state": {
+          "branch": null,
+          "revision": "623fdc249a8525718edc49aba4c4fad723ffdc62",
+          "version": "1.0.32"
+        }
+      },
+      {
+        "package": "DJWUIExtensions",
+        "repositoryURL": "https://github.com/trevor-sonic/DJWUIExtensions.git",
+        "state": {
+          "branch": null,
+          "revision": "dce823be0fabb769eb27c660af843c11af61315c",
+          "version": "1.0.26"
         }
       },
       {
         "package": "DJWVTExtensions",
-        "repositoryURL": "https://gitlab.com/trevorsonic/DJWVTExtensions.git",
+        "repositoryURL": "https://github.com/trevor-sonic/DJWVTExtensions.git",
         "state": {
           "branch": null,
-          "revision": "fd8c25d9ae953496b1156acc6f047536ef6c51ef",
-          "version": "1.0.24"
+          "revision": "388b54ccad5763dca68bf1b7ea49aa7abcbf687b",
+          "version": "1.0.26"
         }
       },
       {
