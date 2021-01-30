@@ -9,6 +9,9 @@ import UIKit
 import DJWBaseVC
 import DifferenceKit
 
+/**
+ DKBaseVC is generic CollectionVC which works with Section and Cell -> DKContainer
+ */
 open class DKBaseVC: BaseVC, DKCellOrSectionDelegate{
     public typealias Section = ArraySection<DKContainer, DKContainer>
     

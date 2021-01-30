@@ -53,7 +53,7 @@ let package = Package(
                 
                 ///public
                 "SnapKit",
-                "DifferenceKit"
+                "DifferenceKit",
             
             ]),
         .testTarget(
