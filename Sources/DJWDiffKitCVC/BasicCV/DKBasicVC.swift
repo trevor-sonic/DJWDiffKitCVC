@@ -150,7 +150,7 @@ extension DKBasicVC: UICollectionViewDataSource, UICollectionViewDelegate {
                 return headerView
                 
             }else{
-                fatalError("Unknown cell!")
+                fatalError("Unknown header!")
             }
             
         case UICollectionView.elementKindSectionFooter:
@@ -165,6 +165,7 @@ extension DKBasicVC: UICollectionViewDataSource, UICollectionViewDelegate {
         default:
             assert(false, "Unexpected element kind")
         }
+        fatalError("Unknown Header!")
     }
     
     open func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
