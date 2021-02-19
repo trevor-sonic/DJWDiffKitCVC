@@ -8,6 +8,19 @@
 import UIKit
 import DifferenceKit
 
+public enum VarName {
+    case title, title2, title3
+    case desc, desc2, desc3
+    case icon, icon2, icon3
+    case open, close, fold, unfold
+    case cancel, ok, confirm
+    case arrow, arrowLeft, arrowRight, arrowUp, arrowDown
+    case profile, product, picture
+    
+    
+}
+
+
 public struct DKBasicCellData: Differentiable {
     
     public var id: String = UUID().uuidString
@@ -23,6 +36,16 @@ public struct DKBasicCellData: Differentiable {
     
     public var isProgressing:Bool = false
     
+    // MARK: - DictVars
+    public var ints:[VarName:Int] = [:]
+    public var doubles:[VarName:Double] = [:]
+    public var strings:[VarName:String] = [:]
+    public var images:[VarName:UIImage] = [:]
+    public var buttons:[VarName:UIButton] = [:]
+    
+    
+    
+    
     // MARK: - compare
     public var differenceIdentifier: String {
         return id
@@ -32,7 +55,14 @@ public struct DKBasicCellData: Differentiable {
             title == source.title &&
             desc ==  source.desc &&
             txt1 == source.txt1 &&
-            isProgressing == source.isProgressing
+            isProgressing == source.isProgressing &&
+            
+            // MARK: - DictVars
+            ints == source.ints &&
+            doubles == source.doubles &&
+            strings == source.strings &&
+            images == source.images &&
+            buttons == source.buttons
     }
     public init(title:String? = nil,
                 desc:String? = nil,
@@ -45,5 +75,10 @@ public struct DKBasicCellData: Differentiable {
         self.txt1 = txt1
         self.image = image
         if let id = id { self.id = id }
+    }
+    
+    /// if uuid is not provided initial one will be used.
+    public init(uuid: String? = nil) {
+        if let uuid = uuid { self.id = uuid }
     }
 }

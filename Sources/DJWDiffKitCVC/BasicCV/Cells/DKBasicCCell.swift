@@ -22,7 +22,8 @@ public class DKBasicCCell: BaseCVCell, DKBasicCellP {
     public var cellData: DKBasicCellData? {
         didSet{
             
-            titleV.text = cellData?.title
+            //titleV.text = cellData?.title
+            titleV.text = cellData?.strings[.title]
             descV.text = cellData?.desc
             txt1V.text = cellData?.txt1
             
