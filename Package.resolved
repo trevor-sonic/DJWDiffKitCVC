@@ -6,8 +6,8 @@
         "repositoryURL": "https://github.com/ra1028/DifferenceKit.git",
         "state": {
           "branch": null,
-          "revision": "14c66681e12a38b81045f44c6c29724a0d4b0e72",
-          "version": "1.1.5"
+          "revision": "073b9671ce2b9b5b96398611427a1f929927e428",
+          "version": "1.3.0"
         }
       },
       {
@@ -24,8 +24,8 @@
         "repositoryURL": "https://github.com/trevor-sonic/DJWBindableNS.git",
         "state": {
           "branch": null,
-          "revision": "de2b4187ac4556b0cc246955db50e8237477ee7e",
-          "version": "1.0.26"
+          "revision": "f67260cd54e03fe85a86ff9c77c7aa4a309c7b02",
+          "version": "2.0.3"
         }
       },
       {
@@ -42,8 +42,8 @@
         "repositoryURL": "https://github.com/trevor-sonic/DJWBuilderNS.git",
         "state": {
           "branch": null,
-          "revision": "1ad78ebeeb37706be2f89f4d923d80fae9375116",
-          "version": "1.0.27"
+          "revision": "c1c0728462cb32f108cd9837c5c56d28c0e95477",
+          "version": "1.0.28"
         }
       },
       {
@@ -51,8 +51,8 @@
         "repositoryURL": "https://github.com/trevor-sonic/DJWCommon.git",
         "state": {
           "branch": null,
-          "revision": "0d5ce97c557644cc72e02d8c4cbbd5d0fc95a75a",
-          "version": "1.0.31"
+          "revision": "8e039201e712007a51c7e2d071a15b5b80e9f287",
+          "version": "1.0.32"
         }
       },
       {
@@ -60,8 +60,8 @@
         "repositoryURL": "https://github.com/trevor-sonic/DJWUIBuilder.git",
         "state": {
           "branch": null,
-          "revision": "623fdc249a8525718edc49aba4c4fad723ffdc62",
-          "version": "1.0.32"
+          "revision": "61659b6efb93ea3fb20b5969f3f0b5bcc3a88916",
+          "version": "1.0.37"
         }
       },
       {
@@ -69,8 +69,8 @@
         "repositoryURL": "https://github.com/trevor-sonic/DJWUIExtensions.git",
         "state": {
           "branch": null,
-          "revision": "dce823be0fabb769eb27c660af843c11af61315c",
-          "version": "1.0.26"
+          "revision": "0e515f117548b84512d0c5332814e761f17e0785",
+          "version": "1.0.29"
         }
       },
       {
@@ -78,8 +78,8 @@
         "repositoryURL": "https://github.com/trevor-sonic/DJWVTExtensions.git",
         "state": {
           "branch": null,
-          "revision": "388b54ccad5763dca68bf1b7ea49aa7abcbf687b",
-          "version": "1.0.26"
+          "revision": "e7fa644b7300ca0bfc5ae28c2eeee6bb92c80252",
+          "version": "1.0.28"
         }
       },
       {
@@ -87,8 +87,8 @@
         "repositoryURL": "https://github.com/SnapKit/SnapKit.git",
         "state": {
           "branch": null,
-          "revision": "d458564516e5676af9c70b4f4b2a9178294f1bc6",
-          "version": "5.0.1"
+          "revision": "2842e6e84e82eb9a8dac0100ca90d9444b0307f4",
+          "version": "5.7.1"
         }
       }
     ]
